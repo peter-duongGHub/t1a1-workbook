@@ -4,8 +4,9 @@
 #### What is Web Development Markup Language?
 Web Development Markup Language is one of many languages in web development used to structurally present text, images and/or links in a web document, it enables the previously mentioned content to be rendered in a specified way. <!-- Web Development Markup Language also allows annotating comments which will not render but is useful for any viewer to further understand the structure/meaning of a web document or intention of the web developer who created the web document. -->
 
+### Explain 
 #### How does Web Development Markup Language work?
-Web Development Markup Language uses either tags or code providing instructions to a computer on how certain elements should be displayed & structured on a web document. Tags and code may be written in a simple text editor such as notepad, microsoft word, visual studio code to name a few, and converted into a web development markup language format before rendering on a web page. Each markup language has certain rules to distinguish between text and the tags or codes necessary to implement web document structuring, this is called syntax. The web development markup language is parsed onto a web browser.
+Web Development Markup Language uses either tags or code around or between text, providing instructions to a computer on how certain elements should be displayed & structured on a web document. Text, tags and code may be written in a simple text editor such as notepad, microsoft word, visual studio code to name a few, and converted into a web development markup language format before rendering on a web page. Each markup language has certain rules to distinguish between text and the tags or codes necessary to implement web document structuring, this is called syntax. The web development markup language is parsed by a web browser.
 
 
 #### Example Web Development Markup Language
@@ -17,7 +18,16 @@ Web Development Markup Language uses either tags or code providing instructions 
 #### Why is Web Development Markup Language important?
 
 
+
 #### Where is Web Development Markup Language used?
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
+- 
+
+#### Benefits of Web Development Markup Language
+
+#### Cons of Web Development Markup Language
 
 #### 
 
@@ -30,6 +40,92 @@ Components and concepts of markup languages
 
 ## Q2 
 What are packets?/ip/routers/domains and dns
+### What are Packets
+Packets also known as datagrams are fixed data units that are transmitted from one computer to another over an interconnected network. Packets are components broken down into fixed sizes, (such as images or text) when all packets are received at the destination IP address, packets are reassembled into the whole data component. Packets travel through layer 3 devices. The network protocol that is used will determine the components of each packet.  
+
+### How do Packets work?
+A TCP packet such as ACK packet confirms receiving packets and relays a signal back to the sender for continued packet transmission. 
+
+
+### Why are they important
+Packets are important as they help with the efficiency of transferring data. Without packets data would be transferred in large bits, if more than two computers are involved the other computers wont be able to access the data simultaneously.
+
+### Components of Packets
+Each packet is made up of:
+**Header**  
+The header is composed of:
+- Version Number
+- Header Length
+- Differentiated services
+- Datagram/Packet length
+- Option field
+#### Version Number
+Helps Datagram be processed by internet protocol software in machine. 
+
+#### Header Length
+Each word is 4 bytes in length in IPv4.
+
+#### Option Field
+The option field allows Ipv4 header length to range from 20 - 60 bytes. The value in option field also determines the header length of the IPv4 datagram/packet.
+
+#### Differentiated Services
+Made up of:
+- DSCP 
+- ECN explicit congestion notification
+Differentiated services of the datagram is composed of 2^6 bit combinations classify IP packets to facilitate the prioritising of different ip packets, giving precendence for those that are more important.
+
+- Data 
+- Footer
+#### Header
+The header is made up of the ip address of both the destination and source address which helps direct the packet to the correct computer in an efficient manner. 
+
+#### IPv4 IPv6
+**Ipv4** addresses are composed of 32 bit length ip addresses. They consist of 4 numbers seperated by a dot, each number may be a value between 0 and 255. Machines will convert this number into binary for rendering and understandability. The total number of devices 2^32 devices can be given an IPv4 Ip address. 
+
+#### Complications of IPv4
+With the limited number of devices IPv4 can allocate an ip address to, the move to IPv6 is happening. 
+
+#### IPv6
+**IPv6** addresses are composed of 128 bit length ip addresse. They consist of 
+IPv6 will allocated 2^128 Ip addresses for each device. 
+
+
+#### IP addresses
+- Static IP Address
+- Dynamic Ip Address
+
+#### IPv4 Addresses
+- Made up of Network Id and Host Id
+- Made up of 32 bits (Ipv4)
+- How IP address is divided into network id and host id is depending on the class the ip address is
+- Loopback address 127
+- Ipv4 classes:
+A, B, C, D, E
+
+#### Class A
+- Network Id portion of Ip address takes up 8 bits. Host Id takes up 2^24 
+
+#### Static Ip Address
+Are used for DNS servers and are permanent addresses.
+
+
+#### Dynamic Ip Address
+Changes every time you access the internet. Such as your ISP providing internet to your computer. They provide an ip address within a certain range.
+
+
+
+while Ipv6 addresses are composed of 128 bit
+
+#### IPv4 Datagrams/Packets Format
+
+
+
+#### Data
+The data is made up of whichever data type is being transmitted. E.g Image, Text etc.
+
+#### Footer
+The footer/trailer role is to detect any errors with the packet also called EDC (error detection code). 
+
 
 How do they work?
 
@@ -39,6 +135,8 @@ Examples
 
 ## Q3 
 What are TCP?/ HTTPS and HTTP ? Web Browsers
+### What is TCP?
+TCP stands for transmission control protocol. TCP helps in ensuring all packets are delivered to destination ip address. 
 
 How do they work?
 
@@ -47,6 +145,9 @@ Why are they important?
 Examples
 ## Q4 
 What are interpreters/compilers
+### What are interpreters/compilers?
+Interpreters and compilers are used to convert high level language to machine language for interpretation and rendering.
+
 
 How do they work?
 
@@ -58,6 +159,11 @@ Examples
 
 ## Q5 
 - What are programming languages? (two)
+### What are programming languages? 
+- Javascript
+- Python
+#### What is Javascript?
+
 
 - HOw do they work?
 
@@ -84,8 +190,50 @@ Action plan identifying relevant networking opportunities for you to participate
 - explain use of language learning model tech such as chatg
 
 ## Q10 
+### Language Learning Model Technology 
+#### What is Language learning model technology?
+Language learning model technology also known as large language models work by having artificial intelligence understand and transcribe human language from a large data set into generated content using deep learning. 
+
+
 
 ## Q11 
+### Hard Skills
+#### What are Hard Skills
+Hard skills relate to technical abilities that may be taught and measured through progamming.  
+
+#### Examples of Hard Skills
+- Stylesheet Language
+- Markup Language
+- Programming Languages
+- Web Development
+- Database managing
+- Version control
+- Responsive Design
+- CMS
+- debugging and testing
+- frameworks, libraries
+
+#### Why are Hard Skills Important?
+
+
+### Soft Skills
+#### What are Soft Skills
+Soft skills involve an individuals personal abilities that are developed over time, beneficial to all aspects of a successful software company. 
+
+#### Examples of Soft Skills
+- communication
+- leadership
+- managing time
+- solving problems
+- adaptability 
+- flexibility
+- teamwork
+- attention to detail
+
+#### Why are Soft Skills Important?
+
+
+
 
 ## Q12 
 - Engineering project manager
@@ -100,4 +248,9 @@ Action plan identifying relevant networking opportunities for you to participate
 - scrum master
 
 
-https://theonetechnologies.com/blog/post/different-roles-in-software-company
+## References:
+- https://theonetechnologies.com/blog/post/different-roles-in-software-company
+- Packets - https://www.youtube.com/watch?v=j9A8Amdfyj0
+- Ipv4 - https://www.youtube.com/watch?v=3Y70y6dM7Cs
+- IP address, IPv4 and IPv6
+- LLM - https://www.techtarget.com/whatis/definition/large-language-model-LLM
