@@ -205,21 +205,24 @@ Hard skills relate to technical abilities that may be taught and measured throug
 - **Stylesheet Language**  
 This refers to language such as CSS (Cascading stylesheet), involving the styling of webpages. Cascading stylesheet may be learnt and used in conjunction with HTML to help edit HTML elements. CSS is paramount to enabling a more entertaining and user-friendly experience for each visitor.
 
-- **Markup Language**  
-Markup Language refers to languages such as HTML, XHTML, LateX etc. These languages are crucial in web development and help design a websites structure, layout and presentation. 
+- **Markup Language**
+: Markup Language refers to languages such as HTML, XHTML, LateX etc. These languages are crucial in web development and help design a websites structure, layout and presentation. 
 
 - **Programming Languages**     
-Programming Language refers to languages such as Python and Javascript. They help translate human language into binary,  helping computers understand and execute the instructions we provide.    
-There are two types of Programming Languages:  
-_Low Level Language_  
+: Programming Language refers to languages such as Python and Javascript. They help translate human language into binary,  helping computers understand and execute the instructions we provide.    
+**There are two types of Programming Languages:**    
+1. **Low Level Language**  
 Low level language such as Assembly language are more easily understood by machines and offers much more control and efficiency in applications.   
-_High Level Language_  
+2. **High Level Language**   
 High level language introduces a more understandable way for humans to transcribe our language into machine language for machine to understand easier.
 
 - **Web Development**  
-Web Development refers to technology that is used to create a dynamic application or website for friendly user experience. It involves front-end (client-side technologies such as HTML, CSS & Javascript) and back-end (technology that ensures smooth processes with front-end technology and storage, retrieving and processing of data). The components within front-end web development involves features that are shown and interacted with on a web page including; buttons, navigation menus, contact forms, styling of the web document etc. 
-
-- Database Management
+Web Development refers to technology that is used to create a dynamic application or website for friendly user experience. It involves front-end (client-side technologies such as HTML, CSS & Javascript) and back-end (technology that ensures smooth processes with front-end technology and storage, retrieving and processing of data).  
+**Front End**   
+The components within front-end web development involves features that are shown and interacted with on a web page including; buttons, navigation menus, contact forms, styling of the web document etc.   
+**Back End**  
+In contrast to front end back end technology refers to handling of data storage, servers and confidential information clients may upload focusing on the parts you cannot see.  
+- **Database Management**
 - Version Control
 - Responsive Design
 - Debugging and Testing
