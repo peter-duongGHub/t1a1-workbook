@@ -199,36 +199,50 @@ Language learning model technology also known as large language models work by h
 ## Q11 
 ### Hard Skills
 #### What are Hard Skills
-Hard skills relate to technical abilities that may be taught and measured through progamming.  
+Hard skills relate to technical abilities that may be taught and measured through progamming. They may be further learnt and developed over time. 
 
 #### Examples of Hard Skills
-- Stylesheet Language
-- Markup Language
-- Programming Languages
-- Web Development
-- Database managing
-- Version control
+- **Stylesheet Language**  
+This refers to language such as CSS (Cascading stylesheet), involving the styling of webpages. Cascading stylesheet may be learnt and used in conjunction with HTML to help edit HTML elements. CSS is paramount to enabling a more entertaining and user-friendly experience for each visitor.
+
+- **Markup Language**  
+Markup Language refers to languages such as HTML, XHTML, LateX etc. These languages are crucial in web development and help design a websites structure, layout and presentation. 
+
+- **Programming Languages**     
+Programming Language refers to languages such as Python and Javascript. They help translate human language into binary,  helping computers understand and execute the instructions we provide.    
+There are two types of Programming Languages:  
+_Low Level Language_  
+Low level language such as Assembly language are more easily understood by machines and offers much more control and efficiency in applications.   
+_High Level Language_  
+High level language introduces a more understandable way for humans to transcribe our language into machine language for machine to understand easier.
+
+- **Web Development**  
+Web Development refers to technology that is used to create a dynamic application or website for friendly user experience. It involves front-end (client-side technologies such as HTML, CSS & Javascript) and back-end (technology that ensures smooth processes with front-end technology and storage, retrieving and processing of data). The components within front-end web development involves features that are shown and interacted with on a web page including; buttons, navigation menus, contact forms, styling of the web document etc. 
+
+- Database Management
+- Version Control
 - Responsive Design
-- CMS
-- debugging and testing
-- frameworks, libraries
+- Debugging and Testing
+- Frameworks, Libraries
 
 #### Why are Hard Skills Important?
+
+#### How to Gain/Improve Hard Skills
 
 
 ### Soft Skills
 #### What are Soft Skills
-Soft skills involve an individuals personal abilities that are developed over time, beneficial to all aspects of a successful software company. 
+Soft skills involve an individuals personal abilities that are developed over time which are beneficial to all aspects of a successful software company ensuring fpr smoother processing, systems and outcomes.
 
 #### Examples of Soft Skills
-- communication
-- leadership
-- managing time
-- solving problems
-- adaptability 
-- flexibility
-- teamwork
-- attention to detail
+- Communication
+- Leadership
+- Managing Time
+- Solving Problems
+- Adaptability 
+- Flexibility
+- Teamwork
+- Attention to Detail
 
 #### Why are Soft Skills Important?
 
@@ -254,3 +268,6 @@ Soft skills involve an individuals personal abilities that are developed over ti
 - Ipv4 - https://www.youtube.com/watch?v=3Y70y6dM7Cs
 - IP address, IPv4 and IPv6
 - LLM - https://www.techtarget.com/whatis/definition/large-language-model-LLM
+- Soft & hard https://www.ironhack.com/gb/blog/soft-skills-vs-hard-skills-what-do-tech-recruiters-want
+- Programming language https://www.codecademy.com/resources/blog/programming-languages/
+- Low level language - https://medium.com/@mohinisaxena/low-level-programming-language-examples-9658f578f468
