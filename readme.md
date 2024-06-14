@@ -1,42 +1,101 @@
 # PeterDuong_T1A1 Assessment - Workbook
 ## Q1 
-### Identify
-#### What is Web Development Markup Language?
-Web Development Markup Language is one of many languages in web development used to structurally present text, images and/or links in a web document, it enables the previously mentioned content to be rendered in a specified way. <!-- Web Development Markup Language also allows annotating comments which will not render but is useful for any viewer to further understand the structure/meaning of a web document or intention of the web developer who created the web document. -->
 
-### Explain 
-#### How does Web Development Markup Language work?
-Web Development Markup Language uses either tags or code around or between text, providing instructions to a computer on how certain elements should be displayed & structured on a web document. Text, tags and code may be written in a simple text editor such as notepad, microsoft word, visual studio code to name a few, and converted into a web development markup language format before rendering on a web page. Each markup language has certain rules to distinguish between text and the tags or codes necessary to implement web document structuring, this is called syntax. The web development markup language is parsed by a web browser.
+### What is Web Development Markup Language?  
+Web Development Markup Language is one of many languages in web development used to structurally present text, images and/or links in a web document, it enables components such as text to be rendered in a specific way. 
+
+### How does Web Development Markup Language work?
+Web Development Markup Language uses either tags or code around or between text, providing instructions to a computer on how certain elements should be displayed & structured on a web document. Text, tags and code may be written in a simple text editor such as notepad, microsoft word, visual studio code to name a few, and converted into a web development markup language format before rendering on a web page. Each markup language has certain rules to distinguish between text and the tags or codes necessary to implement web document structuring, this is called syntax.
+
+### Example Web Development Markup Language
+#### HTML
+```
+<h1>This is a title</h1>
+```
+HTML5 also referred to as HTML is the newest version of HTML. This language works by inserting opening and closing tags, which helps structure the content displayed on the web browser. Here's an example: The above code represents an opening and closing tag for a heading, specifically h1. h1 is the element name and the text between the opening and closing tags are the text that will be rendered. Opening tags begin with angle brackets specifying the beginning of content, represented by <>. Closing tags are similar, angle brackets with a forward slash inside the angle brackets - </> this represents the end of the element.
+
+#### XML
+```
+<note>
+<heading>Note to Self</heading>
+<body>Lorem Ipsum</body>
+</note>
+```
+XML is another example of a markup language, its function differs from HTML5. XML (eXtensible markup language) similarly to HTML5 uses tags. XML does not display content on a web document, software must be used to help store and transfer or display it. Tags and document display in XML need to be defined prior to use. The above code represents a note with a heading and body. These elements must be defined by the author.
+
+### Components/Concepts of Markup Languages
+#### Syntax
+Syntax within markup languages involves the rules associated to the use of the markup language. They are pre-determined instructions that must be implemented when using attributes, elements & tags. Without proper syntax, error codes may appear and content may not be rendered.  
+A few examples of markup language syntax:  
+- **Angle brackets**  
+```<>``` : Opening Tag  
+```<\>``` : Closing Tag
+- **Attributes**  
+```alt=```: Alt Attribute (may be used if image does not render, screen reader purposes)  
+```placeholder=``` Placeholder Attribute (sets placeholder text)  
+```style=``` : Style attribute (not recommended, but is an attribute for in-line styling)  
+- **Elements**(Represented by opening tag, closing tag & content)    
+```<h1>Header</h1>```: this would represent the h1 element and would represent a primary header tag (opening and closing)  
+```<p>Lorem</p>```: this would represent the p tag(opening and closing), associated with paragraphs   
+```<img>```: this would represent the img tag(self-closing), associated with images 
+
+#### Hypertext
+A common and significant component within markup languages such as HTML is hypertext. Text components that may connect to other documents or chunks of text are referred to as hypertext. Hypertext helps with navigating pages of text/document much simpler, easier and accurate. Without hypertext, utilising search engines to navigate pages would not be possible. 
+
+#### Tags
+Tags are an important concept within markup languages. Without tags no content would be exhibited or stored(XML). In HTML, tags are necessary to represent the documents structure on web pages and help support search engines to categorise content relevancy. An example:  
+```<p>```  
+```</p>```  
+Opening tags are represented with two enclosing angle brackets, closing tags are represented by two enclosing angle brackets with a forward slash inside followed by the annotation representing the specific element (p represents paragraph).
+
+#### Text
+Text component would be surrounded by opening and closing tags displaying the text manifested on the document. Example:
+```
+<p>Lorem Ipsum</p>
+```
+The following line of code would provide a paragraph with text content Lorem Ipsum.
+
+#### Semantics (HTML)
+Semantic tags are used in HTML to provide meaning for the content displayed on the web page. It helps divide sections of content into relevant containers that support optimal SEO purposes. Example: 
+```
+<nav>Menu</nav>
+```
+The nav element helps readers and developers by indicating this section of content involves navigation. 
+
+#### Static Language
+Markup languages are static in nature. They do not provide any 
 
 
-#### Example Web Development Markup Language
-- HTML5
-- XHTML
-- XML
-- LateX
-
-#### Why is Web Development Markup Language important?
-
-
-
-#### Where is Web Development Markup Language used?
+### Where is Web Development Markup Language used?
 - Google Chrome
 - Mozilla Firefox
 - Microsoft Edge
-- 
+- Youtube
+- Wikipedia
 
-#### Benefits of Web Development Markup Language
+### Benefits of Web Development Markup Language
+Web development markup languages allow authors to structure webpage content in a standardised format. The benefits of Markup Languages include:
+- **Accessibility and Readability**  
+With every browser supporting markup languages such as HTML language, this makes it readily accessible to both viewers and businesses in terms of application and rendering. In terms of readability, An example: for HTML, attributes such as ```alt``` helps with readability for images that fail to render or for screen readers, making HTML5 a viable option in many cases of displaying web content and for greater user experience.
 
-#### Cons of Web Development Markup Language
+- **Optimising SEO**  
+Search engines such as google will rank websites based on their relevance, technical geography and popularity. Components in HTML such as semantic tags help group and contain specific content for search engines to better understand and navigate the content meaning and structure, ranking higher for relevant content. HTML tags play a key role in grouping specific sections for search engine optimisation. An example would be:
+```
+<main>
+```
+The main tag is the primary portion of the document. This section would contain content unique to the web page.
+- **Ease of Use & Extensibility**  
+HTML is a simple language in comparison to other languages, making it much easier to learn, understand and apply. As HTML works across multiple browsers and devices, structuring and rendering content of web pages becomes much simpler and smoother. HTML is also extensible, meaning it has a great affinity with stylesheet languages such as CSS and programming languages like Javscript. 
 
-#### 
+### Cons of Web Development Markup Language
+- **Static Language**  
+Markup languages such as html are static, this means they are limited in what they are able to do. In simple terms this means the components of the web page are not dynamic, they cannot change with user input or other factors.
 
+- **Security**
+HTML has its drawbacks, HTML injections are an example. HTML injections are a type of attack focused on manipulating the HTML components resulting in a disfigured structure or manipulated components. Certain components such as tags or attributes or hyperlinks may be replaced with malicious code. Certain preventative measures such as security audits, validating user input and sanitizing harmful content from user inputs may remove or mitigate the risks associated with the use of HTML.
 
-What types of Markup Language?
-
-Why is markup language important?
-
-Components and concepts of markup languages
+- **Limited Designs**  
+In regards to its static nature, this makes HTML language limited in what it may present to the viewer. Only texts, links, buttons, tables etc (to name a few), may be used as page content. 3D objects, animations, and interactivity cannot be created with markup languages. This is where other languages like CSS & Javascript support HTML.
 
 ## Q2 
 What are packets?/ip/routers/domains and dns
@@ -205,28 +264,21 @@ Hard skills relate to technical abilities that may be taught and measured throug
 - **Stylesheet Language**  
 This refers to language such as CSS (Cascading stylesheet), involving the styling of webpages. Cascading stylesheet may be learnt and used in conjunction with HTML to help edit HTML elements. CSS is paramount to enabling a more entertaining and user-friendly experience for each visitor.
 
-- **Markup Language**
-: Markup Language refers to languages such as HTML, XHTML, LateX etc. These languages are crucial in web development and help design a websites structure, layout and presentation. 
+- **Markup Language**  
+Markup Language refers to languages such as HTML, XHTML, LateX etc. These languages are crucial in web development and help design a websites structure, layout and presentation. 
 
 - **Programming Languages**     
-: Programming Language refers to languages such as Python and Javascript. They help translate human language into binary,  helping computers understand and execute the instructions we provide.    
+Programming Language refers to languages such as Python and Javascript. They help translate human language into binary,  helping computers understand and execute the instructions we provide.    
 **There are two types of Programming Languages:**    
 1. **Low Level Language**  
 Low level language such as Assembly language are more easily understood by machines and offers much more control and efficiency in applications.   
 2. **High Level Language**   
-High level language introduces a more understandable way for humans to transcribe our language into machine language for machine to understand easier.
-
-- **Web Development**  
-Web Development refers to technology that is used to create a dynamic application or website for friendly user experience. It involves front-end (client-side technologies such as HTML, CSS & Javascript) and back-end (technology that ensures smooth processes with front-end technology and storage, retrieving and processing of data).  
-**Front End**   
-The components within front-end web development involves features that are shown and interacted with on a web page including; buttons, navigation menus, contact forms, styling of the web document etc.   
-**Back End**  
-In contrast to front end back end technology refers to handling of data storage, servers and confidential information clients may upload focusing on the parts you cannot see.  
-- **Database Management**
-- Version Control
-- Responsive Design
-- Debugging and Testing
-- Frameworks, Libraries
+High level language introduces a more understandable way for people to transcribe our language into machine language for machines to better understand. 
+ 
+- **Database Management**  
+Database management involves the creating, improving and application of databases to help store organised and secure data. 
+- **Debugging and Testing**
+- **Frameworks, Libraries**
 
 #### Why are Hard Skills Important?
 
